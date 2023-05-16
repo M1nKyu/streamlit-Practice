@@ -1,0 +1,5 @@
+matplotlib 
+numpy
+pandas
+keras
+# 텍스트를 쓰면 자동적으로 다운
