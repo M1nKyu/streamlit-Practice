@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import graphviz as graphviz
 import matplotlib.pyplot as plt # matplot 라이브러리가 없어서 오류가 발생할 것임, 설치필요
 
 rand = np.random.normal(1, 2, size = 20)
