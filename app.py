@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt # matplot 라이브러리가 없어서 오류가 발생할 것임, 설치필요
 
 rand = np.random.normal(1, 2, size = 20)
-fig, ax = plt, subplots()
+fig, ax = plt.subplots()
 ax.hist(rand, bins=15)
 st.pyplot(fig)
 
