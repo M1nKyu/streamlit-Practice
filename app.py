@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-dp = pd.DataFrame(np.random.randn(500,2) / [50,50] + [37.76, -122.4], columns = ['lat', 'lon'])
+df = pd.DataFrame(np.random.randn(500,2) / [50,50] + [37.76, -122.4], columns = ['lat', 'lon'])
 st.map(df)
 
 x = st.slider('Select a value') # 슬라이더 추가
